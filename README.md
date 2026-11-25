@@ -12,4 +12,4 @@ If one word has to be erased from the dictionary forever, it is **moist** — th
 
 ## How it works
 
-The program writes exactly `moist` to `/output/entry.txt` — five bytes, no trailing newline, nothing else.
+The program writes exactly `moist` to `/output/entry.txt` — five bytes, no trailing newline, nothing else. After writing, it reads the file back and verifies the exact bytes are `moist`, failing loudly if they are not.
